@@ -1,0 +1,5 @@
+(jbuild_version 1)
+
+(library
+ ((name entry)
+  (libraries (cohttp.lwt yojson handles))))

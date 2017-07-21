@@ -1,0 +1,9 @@
+(jbuild_version 1)
+
+(executables
+ ((libraries (cohttp.lwt yojson entry handles routes))
+  (names (main))))
+
+(alias
+  ((name DEFAULT)
+   (deps (main.exe))))
