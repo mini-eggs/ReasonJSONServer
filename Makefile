@@ -6,3 +6,6 @@ run: build
 
 clean:
 	rm -rf server/_build
+
+install_dependencies:
+	opam install jbuilder
